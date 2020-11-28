@@ -1,0 +1,317 @@
+body{
+			margin:0 auto;
+			min-width:1170px;
+			max-width:1170px;
+			min-height:100px;
+			background-color:#e5e5e5;
+}
+
+header{
+			position:relative;
+			width:100%;
+			height:130px;
+			background-color:#222222;
+			color:white;
+			text-decoration:none;
+}
+
+.block1{
+			position:relative;
+			width:100%;
+			height:500px;
+}
+
+.head_foto{
+			position:absolute;
+			top:70px;
+			left:310px;
+			width:540px;
+			height:430px;
+			border:7px solid black;
+			border-radius:20px;
+}
+
+.mlb{
+			position:absolute;
+			left:470px;
+			bottom:1px;
+			font-size:42px;
+			font-family: 'Architects Daughter', cursive;
+}
+
+.block2{
+			position:relative;
+			width:100%;
+			height:350px;
+}
+
+.abme{
+			position:absolute;
+			top:60px;
+			left:70px;
+			font-family: 'Goldman';
+			font-size:45px;
+
+
+}
+
+.abme2{
+			position:absolute;
+			top:120px;
+			left:90px;
+			font-size:30px;
+}
+
+.footer{
+			position:relative;
+			width:100%;
+			height:140px;
+			background-color:#222222;
+			text-decoration:none;
+}
+
+
+.helper{
+			position:absolute;
+			left:400px;
+			top:20px;
+			color:white;
+			font-size:25px;
+}
+
+.insta{
+			position:absolute;
+			right:170px;
+			top:30px;
+			width:60px;
+			height:60px;
+			border:1px sloid #222222;
+			border-radius:20px;
+}
+
+.vk{
+			position:absolute;
+			right:40px;
+			top:15px;
+			width:60px;
+			height:60px;
+			border:1px sloid #222222;
+			border-radius:30px;
+}
+
+
+.block3{
+			position:relative;
+			width:100%;
+			height:700px;
+}
+
+button{
+			border:1px solid black;
+			border-radius:100px;
+			font-size:25px;
+}
+
+.pole{
+			border:6px solid black;
+			width:505px;
+			height:515px;
+			margin-top:50px;
+			margin-left:330px;
+}
+
+.str1{
+			display:flex;
+			hght:100px;
+			width:100%;
+}
+
+.v1h1{
+			width:168px;
+			height:168px;
+			border:3px solid black;
+			position:relative;
+}
+.gr1{
+			position:absolute;
+			left:25px;
+			top:65px;
+}
+
+.re1{
+			position:absolute;
+			top:65px;
+			right:25px;
+}
+
+.v2h2{
+			width:168px;
+			height:168px;
+			border:3px solid black;
+			position:relative;
+}
+.gr2{
+			position:absolute;
+			left:25px;
+			top:65px;
+}
+
+.re2{
+			position:absolute;
+			top:65px;
+			right:25px;
+}
+
+.v3h3{
+			width:168px;
+			height:168px;
+			border:3px solid black;
+			position:relative;
+}
+.gr3{
+			position:absolute;
+			left:25px;
+			top:65px;
+}
+
+.re3{
+			position:absolute;
+			top:65px;
+			right:25px;
+}
+
+.str2{
+			display:flex;
+			hght:100px;
+			width:100%;
+}
+
+.v4h4{
+			width:168px;
+			height:168px;
+			border:3px solid black;
+			position:relative;
+}
+.gr4{
+			position:absolute;
+			left:25px;
+			top:65px;
+}
+
+.re4{
+			position:absolute;
+			top:65px;
+			right:25px;
+}
+
+.v5h5{
+			width:168px;
+			height:168px;
+			border:3px solid black;
+			position:relative;
+}
+.gr5{
+			position:absolute;
+			left:25px;
+			top:65px;
+}
+
+.re5{
+			position:absolute;
+			top:65px;
+			right:25px;
+}
+
+.v6h6{
+			width:168px;
+			height:168px;
+			border:3px solid black;
+			position:relative;
+}
+.gr6{
+			position:absolute;
+			left:25px;
+			top:65px;
+}
+
+.re6{
+			position:absolute;
+			top:65px;
+			right:25px;
+}
+
+.str3{
+			display:flex;
+			height:100px;
+			width:100%;
+}
+
+.v7h7{
+			width:167px;
+			height:167px;
+			border:3px solid black;
+			position:relative;
+}
+.gr7{
+			position:absolute;
+			left:25px;
+			top:65px;
+}
+
+.re7{
+			position:absolute;
+			top:65px;
+			right:25px;
+}
+
+.v8h8{
+			width:167px;
+			height:167px;
+			border:3px solid black;
+			position:relative;
+}
+.gr8{
+			position:absolute;
+			left:25px;
+			top:65px;
+}
+
+.re8{
+			position:absolute;
+			top:65px;
+			right:25px;
+}
+
+.v9h9{
+			width:167px;
+			height:167px;
+			border:3px solid black;
+			position:relative;
+}
+.gr9{
+			position:absolute;
+			left:25px;
+			top:65px;
+}
+
+.re9{
+			position:absolute;
+			top:65px;
+			right:25px;
+}
+
+.main_b{
+			position:realitive;
+			width:100%;
+}
+
+.reset{
+			position:absolute;
+			left:520px;
+			top:580px;
+			width:120px;
+			height:50px;
+			font-size:25px;
+			background-color:#0003ff;
+			color:white;
+}
