@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+			<meta charset="UTF-8">
+			<title>Blog</title>
+			<script src="Js_scripts/My_project.js"></script>
+			<link rel="stylesheet" href="My_project.css">
+			<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+<body>
+			<header>
+						<p class="mlb">My personal blog</p>
+			</header>
+
+
+			<div class="block1">
+						<img class="head_foto" src="foto_1.jpg" alt="">
+			</div>
+			
+			
+			<div class="block2">
+						<h1 class="abme">About me:</h1>
+						<p class="abme2">My name is Zakhar and I from Belarus. I was borned in Vitebsk and live here now days. I am 14 and my favourite hobby is programming. I start coding when I was 13. At this site you can see one of my projects:</p>
+			</div>
+			
+			<div class="block3">
+						<div class="game"><div class="checker">Попробуйте угадать<br> задуманное число</div></div>
+			<input type="phone" class="user_try">
+			<button class="ok">OK</button>
+			</div>
+			<script>
+						let fail = [];
+						let number = Math.ceil(Math.random() * 100);
+						$(".ok").click(function(){
+									fail.push($(".user_try").val());
+									if (fail == number){
+												$(".checker").html("Вы угадали");
+									}
+									if (fail < number){
+												$(".checker").html("Мало");
+												fail.pop();
+									}
+									if (fail > number){
+												$(".checker").html("Много");
+												fail.pop();	
+									}
+						})
+			</script>
+			</div>
+				
+			<footer class="footer">
+						<p class="helper">Support me:</p>
+						<a href="https://instagram.com/matornyzakhar"><img class="insta" src="insta.jpg" alt=""></a>
+						<a class="vk" href="https://vk.com/zmotorny"><img class="vk" src="vk.jpg" alt=""></a>			
+			</footer>
+</body>
+</html>
